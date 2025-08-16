@@ -49,11 +49,31 @@ const Home = () => {
 
               {/* Social Media Icons */}
               <div className="flex justify-center space-x-4 mb-12">
-                <SocialIcon icon={<Linkedin size={20} />} />
-                <SocialIcon icon={<Instagram size={20} />} />
-                <SocialIcon icon={<MessageCircle size={20} />} />
-                <SocialIcon icon={<Github size={20} />} />
-                <SocialIcon icon={<Youtube size={20} />} />
+                <SocialIcon 
+                  icon={<Linkedin size={20} />} 
+                  href="https://www.linkedin.com/company/acmutd"
+                  label="LinkedIn"
+                />
+                <SocialIcon 
+                  icon={<Instagram size={20} />} 
+                  href="https://www.instagram.com/acmutd/"
+                  label="Instagram"
+                />
+                <SocialIcon 
+                  icon={<MessageCircle size={20} />} 
+                  href="https://discord.gg/ttB9HuaKsA"
+                  label="Discord"
+                />
+                <SocialIcon 
+                  icon={<Github size={20} />} 
+                  href="https://github.com/acmutd/"
+                  label="GitHub"
+                />
+                <SocialIcon 
+                  icon={<Youtube size={20} />} 
+                  href="https://www.youtube.com/@acmutdallas4256"
+                  label="YouTube"
+                />
               </div>
 
               {/* Scroll Down Indicator */}
@@ -177,10 +197,18 @@ const Home = () => {
   );
 };
 
-const SocialIcon = ({ icon }) => (
-  <div className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 hover:scale-110 cursor-pointer">
-    {icon}
-  </div>
+const SocialIcon = ({ icon, href, label }) => (
+  <a 
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={label}
+    className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 hover:scale-110 cursor-pointer group"
+  >
+    <div className="text-white group-hover:text-purple-300 transition-colors duration-300">
+      {icon}
+    </div>
+  </a>
 );
 
 export default Home;
