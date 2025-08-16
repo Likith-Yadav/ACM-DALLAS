@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="20" fill="url(#projectsGradient)"/>
+  <rect x="35" y="35" width="20" height="20" rx="4" fill="white"/>
+  <rect x="65" y="35" width="20" height="20" rx="4" fill="white"/>
+  <rect x="35" y="65" width="20" height="20" rx="4" fill="white"/>
+  <rect x="65" y="65" width="20" height="20" rx="4" fill="white"/>
+  <defs>
+    <linearGradient id="projectsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD93D"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="20" fill="url(#communityGradient)"/>
+  <circle cx="40" cy="50" r="12" fill="white"/>
+  <circle cx="80" cy="50" r="12" fill="white"/>
+  <circle cx="60" cy="80" r="12" fill="white"/>
+  <path d="M40 50L60 80" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M80 50L60 80" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="communityGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FD79A8"/>
+      <stop offset="100%" stop-color="#FDCB6E"/>
+    </linearGradient>
+  </defs>
+</svg> 

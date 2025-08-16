@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="20" fill="url(#educationGradient)"/>
+  <path d="M60 30L90 50L60 70L30 50L60 30Z" fill="white"/>
+  <rect x="45" y="75" width="30" height="15" rx="2" fill="white"/>
+  <defs>
+    <linearGradient id="educationGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#A29BFE"/>
+    </linearGradient>
+  </defs>
+</svg> 
