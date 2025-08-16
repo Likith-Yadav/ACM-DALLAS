@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Linkedin, Instagram, MessageCircle, Github, Youtube } from 'lucide-react';
-import chapterLogo from '../assets/images/chapter-logo.jpg';
+import chapterLogo from '../assets/images/chapter-logo.png';
 
 const Footer = () => {
   return (
