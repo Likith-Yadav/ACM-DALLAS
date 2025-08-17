@@ -1,8 +1,15 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ChevronDown, Linkedin, Instagram, MessageCircle, Github, Youtube } from 'lucide-react';
-import Divisions from '../components/Divisions';
-import Footer from '../components/Footer';
+import React from "react";
+import { motion } from "framer-motion";
+import {
+  ChevronDown,
+  Linkedin,
+  Instagram,
+  MessageCircle,
+  Github,
+  Youtube,
+} from "lucide-react";
+import Divisions from "../components/Divisions";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -32,45 +39,45 @@ const Home = () => {
               className="text-center"
             >
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                <span className="text-white">association for </span>
+                <span className="text-white">Association for </span>
                 <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-indigo-400 bg-clip-text text-transparent">
-                  computing
+                  Computing
                 </span>
                 <br />
                 <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-indigo-400 bg-clip-text text-transparent">
-                  machinery
+                  Machinery
                 </span>
               </h1>
-              
+
               <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-4xl mx-auto leading-relaxed">
-                we're a team of students with one goal: building a greater, more collaborative 
-                computing community at The University of Texas at Dallas.
+                we're a team of students with one goal: building a greater, more
+                collaborative computing community at Dallas.
               </p>
 
               {/* Social Media Icons */}
               <div className="flex justify-center space-x-4 mb-12">
-                <SocialIcon 
-                  icon={<Linkedin size={20} />} 
+                <SocialIcon
+                  icon={<Linkedin size={20} />}
                   href="https://www.linkedin.com/company/acmutd"
                   label="LinkedIn"
                 />
-                <SocialIcon 
-                  icon={<Instagram size={20} />} 
+                <SocialIcon
+                  icon={<Instagram size={20} />}
                   href="https://www.instagram.com/acmutd/"
                   label="Instagram"
                 />
-                <SocialIcon 
-                  icon={<MessageCircle size={20} />} 
+                <SocialIcon
+                  icon={<MessageCircle size={20} />}
                   href="https://discord.gg/ttB9HuaKsA"
                   label="Discord"
                 />
-                <SocialIcon 
-                  icon={<Github size={20} />} 
+                <SocialIcon
+                  icon={<Github size={20} />}
                   href="https://github.com/acmutd/"
                   label="GitHub"
                 />
-                <SocialIcon 
-                  icon={<Youtube size={20} />} 
+                <SocialIcon
+                  icon={<Youtube size={20} />}
                   href="https://www.youtube.com/@acmutdallas4256"
                   label="YouTube"
                 />
@@ -98,9 +105,12 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Join ACM?</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Why Join ACM?
+            </h2>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              Unlock opportunities for growth, learning, and professional development in computing
+              Unlock opportunities for growth, learning, and professional
+              development in computing
             </p>
           </motion.div>
 
@@ -108,28 +118,34 @@ const Home = () => {
             {[
               {
                 title: "Meet Other Developers",
-                description: "Connect with like-minded students passionate about technology and computing."
+                description:
+                  "Connect with like-minded students passionate about technology and computing.",
               },
               {
-                title: "Learn by Doing", 
-                description: "Gain hands-on experience through projects, workshops, and real-world applications."
+                title: "Learn by Doing",
+                description:
+                  "Gain hands-on experience through projects, workshops, and real-world applications.",
               },
               {
                 title: "Get Career Ready",
-                description: "Prepare for your future with industry connections and professional development."
+                description:
+                  "Prepare for your future with industry connections and professional development.",
               },
               {
                 title: "Research Opportunities",
-                description: "Participate in cutting-edge research projects and academic initiatives."
+                description:
+                  "Participate in cutting-edge research projects and academic initiatives.",
               },
               {
                 title: "Mentorship Access",
-                description: "Get guidance from experienced students and industry professionals."
+                description:
+                  "Get guidance from experienced students and industry professionals.",
               },
               {
                 title: "Make Connections",
-                description: "Build lasting relationships and expand your professional network."
-              }
+                description:
+                  "Build lasting relationships and expand your professional network.",
+              },
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -138,7 +154,9 @@ const Home = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300 hover:scale-105"
               >
-                <h3 className="text-xl font-semibold mb-3 text-purple-300">{item.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 text-purple-300">
+                  {item.title}
+                </h3>
                 <p className="text-white/70">{item.description}</p>
               </motion.div>
             ))}
@@ -155,9 +173,12 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">our divisions</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              our divisions
+            </h2>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              acm utd is comprised of eight divisions — each serving a different topic and mission
+              acm utd is comprised of eight divisions — each serving a different
+              topic and mission
             </p>
           </motion.div>
 
@@ -174,7 +195,9 @@ const Home = () => {
             transition={{ duration: 0.6 }}
             className=" text-center"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">ready to join acm?</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              ready to join acm?
+            </h2>
             <p className="text-white/80 text-lg mb-4">
               take the first step towards advancing your career in computing
             </p>
@@ -183,8 +206,18 @@ const Home = () => {
             </p>
             <button className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 flex items-center mx-auto space-x-2">
               <span>start your journey</span>
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
               </svg>
             </button>
           </motion.div>
@@ -198,7 +231,7 @@ const Home = () => {
 };
 
 const SocialIcon = ({ icon, href, label }) => (
-  <a 
+  <a
     href={href}
     target="_blank"
     rel="noopener noreferrer"
@@ -212,4 +245,3 @@ const SocialIcon = ({ icon, href, label }) => (
 );
 
 export default Home;
-

@@ -121,35 +121,35 @@
 
 /* Division gradient backgrounds */
 .bg-media-gradient {
-  background: linear-gradient(to right, #FF6B6B, #FF8E53);
+  background: linear-gradient(to right, #ff6b6b, #ff8e53);
 }
 
 .bg-research-gradient {
-  background: linear-gradient(to right, #4ECDC4, #44A08D);
+  background: linear-gradient(to right, #4ecdc4, #44a08d);
 }
 
 .bg-development-gradient {
-  background: linear-gradient(to right, #A8E6CF, #88D8A0);
+  background: linear-gradient(to right, #a8e6cf, #88d8a0);
 }
 
 .bg-projects-gradient {
-  background: linear-gradient(to right, #FFD93D, #FF6B6B);
+  background: linear-gradient(to right, #ffd93d, #ff6b6b);
 }
 
 .bg-education-gradient {
-  background: linear-gradient(to right, #6C5CE7, #A29BFE);
+  background: linear-gradient(to right, #6c5ce7, #a29bfe);
 }
 
 .bg-community-gradient {
-  background: linear-gradient(to right, #FD79A8, #FDCB6E);
+  background: linear-gradient(to right, #fd79a8, #fdcb6e);
 }
 
-.bg-hackutd-gradient {
-  background: linear-gradient(to right, #00B894, #00CEC9);
+.bg-hack-gradient {
+  background: linear-gradient(to right, #00b894, #00cec9);
 }
 
 .bg-industry-gradient {
-  background: linear-gradient(to right, #3742FA, #5F27CD);
+  background: linear-gradient(to right, #3742fa, #5f27cd);
 }
 
 /* Gradient text support */

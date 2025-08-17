@@ -1,9 +1,9 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Users, Code, GraduationCap, Building } from 'lucide-react';
-import Divisions from '../components/Divisions';
-import aboutImage from '../assets/images/about.jpg';
-import Footer from '../components/Footer';
+import React from "react";
+import { motion } from "framer-motion";
+import { Users, Code, GraduationCap, Building } from "lucide-react";
+import Divisions from "../components/Divisions";
+import aboutImage from "../assets/images/about.jpg";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -35,14 +35,14 @@ const About = () => {
               {/* Left Side - Team Photo */}
               <div className="lg:w-3/5">
                 <div className="rounded-2xl overflow-hidden">
-                  <img 
-                    src={aboutImage} 
-                    alt="ACM UTD Team" 
+                  <img
+                    src={aboutImage}
+                    alt="ACM UTD Team"
                     className="w-full h-auto object-cover"
                   />
                 </div>
               </div>
-              
+
               {/* Right Side - Text Overlay */}
               <div className="lg:w-2/5">
                 <div className=" text-center lg:text-left">
@@ -75,11 +75,15 @@ const About = () => {
             className="mb-20"
           >
             <div className=" sm:p-12">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Mission</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">
+                Mission
+              </h2>
               <p className="text-lg text-white/80 leading-relaxed text-center max-w-4xl mx-auto">
-                ACM at Dallas is a dynamic organization comprising eight specialized divisions and a dedicated team of over 100 officers. 
-                Each division plays a unique role in fostering innovation and engagement, yet we are united by a common mission: 
-                to enhance and support the computing community at Dallas.
+                ACM at Dallas is a dynamic organization comprising eight
+                specialized divisions and a dedicated team of over 20 officers.
+                Each division plays a unique role in fostering innovation and
+                engagement, yet we are united by a common mission: to enhance
+                and support the computing community at Dallas.
               </p>
             </div>
           </motion.div>
@@ -94,7 +98,8 @@ const About = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">Divisions</h2>
               <p className="text-white/70 text-lg max-w-2xl mx-auto">
-                acm is comprised of eight divisions — each serving a different topic and mission
+                acm is comprised of eight divisions — each serving a different
+                topic and mission
               </p>
             </div>
             <Divisions />
@@ -109,4 +114,3 @@ const About = () => {
 };
 
 export default About;
-

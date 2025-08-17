@@ -1,10 +1,10 @@
 <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="120" height="120" rx="20" fill="url(#hackutdGradient)"/>
+  <rect width="120" height="120" rx="20" fill="url(#hackGradient)"/>
   <path d="M30 40L60 70L90 40" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M30 80L60 50L90 80" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="60" cy="60" r="8" fill="white"/>
   <defs>
-    <linearGradient id="hackutdGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="hackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00B894"/>
       <stop offset="100%" stop-color="#00CEC9"/>
     </linearGradient>

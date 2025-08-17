@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
-import chapterLogo from '../assets/images/chapter-logo.png';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import chapterLogo from "/acm-dallas.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
   const navItems = [
-    { name: 'about', path: '/about' },
-    { name: 'officers', path: '/officers' },
-    { name: 'apply', path: '/apply' },
-    { name: 'events', path: '/events' },
-    { name: 'connect', path: '/connect' },
+    { name: "about", path: "/about" },
+    { name: "officers", path: "/officers" },
+    { name: "apply", path: "/apply" },
+    { name: "events", path: "/events" },
+    { name: "connect", path: "/connect" },
   ];
 
   return (
@@ -23,10 +23,10 @@ const Navbar = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-4 group">
               <div className="w-58 h-16 rounded-2xl overflow-hidden group-hover:border-white/50 transition-all duration-300 shadow-lg">
-                <img 
-                  src={chapterLogo} 
-                  alt="ACM UTD Chapter Logo" 
-                  className="w-full h-full object-cover"
+                <img
+                  src={chapterLogo}
+                  alt="ACM DALLAS Logo"
+                  className="w-full h-full object-cover invert"
                 />
               </div>
             </Link>
@@ -39,8 +39,8 @@ const Navbar = () => {
                   to={item.path}
                   className={`px-5 py-3 rounded-xl text-sm font-medium transition-all duration-300 ${
                     location.pathname === item.path
-                      ? 'bg-white/20 text-white shadow-lg'
-                      : 'text-white/80 hover:text-white hover:bg-white/10 hover:shadow-md'
+                      ? "bg-white/20 text-white shadow-lg"
+                      : "text-white/80 hover:text-white hover:bg-white/10 hover:shadow-md"
                   }`}
                 >
                   {item.name}
@@ -69,8 +69,8 @@ const Navbar = () => {
                     to={item.path}
                     className={`block px-4 py-3 rounded-xl text-sm transition-all duration-300 ${
                       location.pathname === item.path
-                        ? 'bg-white/20 text-white'
-                        : 'text-white/80 hover:text-white hover:bg-white/10'
+                        ? "bg-white/20 text-white"
+                        : "text-white/80 hover:text-white hover:bg-white/10"
                     }`}
                     onClick={() => setIsOpen(false)}
                   >
@@ -87,4 +87,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
