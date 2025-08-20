@@ -37,7 +37,7 @@ const About = () => {
                 <div className="rounded-2xl overflow-hidden">
                   <img 
                     src={aboutImage} 
-                    alt="ACM UTD Team" 
+                    alt="ACM DALLAS Team" 
                     className="w-full h-auto object-cover"
                   />
                 </div>

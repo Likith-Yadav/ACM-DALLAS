@@ -8,19 +8,19 @@ const Officers = () => {
     { 
       name: "Milankumar Rana", 
       role: "Chair", 
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      image: "/images/officers/milan.jpg",
       description: "Leading the organization with vision and strategic direction."
     },
     { 
       name: "Sakhita sree gadde", 
       role: "Vice Chair", 
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      image: "/images/officers/sakhita.jpg",
       description: "Supporting leadership and coordinating between divisions."
     },
     { 
       name: "Monika Malik", 
       role: "Secretary", 
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      image: "/images/officers/Monika.jpg",
       description: "Managing documentation and organizational communications."
     },
     { 

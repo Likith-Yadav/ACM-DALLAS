@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="w-58 h-16 rounded-2xl overflow-hidden group-hover:border-white/50 transition-all duration-300 shadow-lg">
               <img 
                 src={chapterLogo} 
-                alt="ACM UTD Chapter Logo" 
+                alt="ACM DALLAS Chapter Logo" 
                 className="w-full h-full object-cover"
               />
             </div>

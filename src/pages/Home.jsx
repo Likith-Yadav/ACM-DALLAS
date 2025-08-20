@@ -157,7 +157,7 @@ const Home = () => {
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">our divisions</h2>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              acm utd is comprised of eight divisions — each serving a different topic and mission
+              acm dallas is comprised of eight divisions — each serving a different topic and mission
             </p>
           </motion.div>
 
