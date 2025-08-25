@@ -23,7 +23,7 @@ const Footer = () => {
               <img
                 src={chapterLogo}
                 alt="ACM Dallas Chapter Logo"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover invert"
               />
             </div>
           </div>

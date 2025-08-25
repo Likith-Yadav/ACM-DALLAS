@@ -8,11 +8,11 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: "about", path: "/about" },
-    { name: "officers", path: "/officers" },
-    { name: "apply", path: "/apply" },
-    { name: "events", path: "/events" },
-    { name: "connect", path: "/connect" },
+    { name: "About", path: "/about" },
+    { name: "Officers", path: "/officers" },
+    { name: "Apply", path: "/apply" },
+    { name: "Events", path: "/events" },
+    { name: "Connect", path: "/connect" },
   ];
 
   return (
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <img
                   src={chapterLogo}
                   alt="ACM Dallas Chapter Logo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover invert"
                 />
               </div>
             </Link>

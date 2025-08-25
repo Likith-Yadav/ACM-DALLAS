@@ -1,19 +1,19 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
-import peechiImage from '../assets/images/peechi.jpg';
-import Footer from '../components/Footer';
+import React from "react";
+import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
+import peechiImage from "../assets/images/peechi.jpg";
+import Footer from "../components/Footer";
 
 // Import division icons
-import projectsIcon from '../assets/about/projects.svg';
-import researchIcon from '../assets/about/research.svg';
-import educationIcon from '../assets/about/education.svg';
+import projectsIcon from "../assets/about/projects.svg";
+import researchIcon from "../assets/about/research.svg";
+import educationIcon from "../assets/about/education.svg";
 
 // Import background images for highlight cards
-import projectsBg from '../assets/images/projects.jpg';
-import researchBg from '../assets/images/research.jpg';
-import techBg from '../assets/images/tech.jpg';
-import mentorBg from '../assets/images/mentor.jpg';
+import projectsBg from "../assets/images/projects.jpg";
+import researchBg from "../assets/images/research.jpg";
+import techBg from "../assets/images/tech.jpg";
+import mentorBg from "../assets/images/mentor.jpg";
 
 const Apply = () => {
   return (
@@ -46,16 +46,17 @@ const Apply = () => {
                 {/* Left Side - Text Content */}
                 <div className="lg:w-1/2">
                   <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
-                    apply
+                    Apply
                   </h1>
                   <p className="text-lg sm:text-xl text-white/80 mb-4 leading-relaxed">
-                    become a part of ACM today by applying to one of our semester long programs or to be an officer!
+                    Become a part of ACM today by applying to one of our
+                    semester long programs or to be an officer!
                   </p>
                   <p className="text-lg text-white/80">
-                    all open applications can be found in our member portal at{' '}
-                    <a 
-                      href="https://portal.acmutd.co/opportunities" 
-                      target="_blank" 
+                    all open applications can be found in our member portal at{" "}
+                    <a
+                      href="https://portal.acmutd.co/opportunities"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-white-400 hover:text-white-300 underline"
                     >
@@ -63,13 +64,13 @@ const Apply = () => {
                     </a>
                   </p>
                 </div>
-                
+
                 {/* Right Side - Peechi Illustration */}
                 <div className="lg:w-1/2 flex justify-center">
                   <div className="w-80 h-80">
-                    <img 
-                      src={peechiImage} 
-                      alt="Peechi Character" 
+                    <img
+                      src={peechiImage}
+                      alt="Peechi Character"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -94,19 +95,29 @@ const Apply = () => {
                 className="relative h-80 rounded-2xl overflow-hidden group"
               >
                 {/* Background Image */}
-                <img src={projectsBg} alt="ACM Projects Background" className="absolute inset-0 w-full h-full object-cover" />
+                <img
+                  src={projectsBg}
+                  alt="ACM Projects Background"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 {/* Dark Overlay */}
                 <div className="absolute inset-0 bg-black/50"></div>
-                
+
                 {/* Content */}
                 <div className="relative z-10 p-8 h-full flex flex-col">
                   {/* Logo - Top Left */}
                   <div className="flex items-center space-x-2">
-                    <img src={projectsIcon} alt="ACM Projects" className="w-6 h-6" />
+                    <img
+                      src={projectsIcon}
+                      alt="ACM Projects"
+                      className="w-6 h-6"
+                    />
                     <span className="text-white font-bold text-lg">acm</span>
-                    <span className="text-blue-400 font-bold text-lg">projects.</span>
+                    <span className="text-blue-400 font-bold text-lg">
+                      projects.
+                    </span>
                   </div>
-                  
+
                   {/* Title - Centered */}
                   <div className="flex-1 flex items-center justify-center">
                     <h2 className="text-4xl sm:text-5xl font-bold text-white text-center">
@@ -124,19 +135,29 @@ const Apply = () => {
                 className="relative h-80 rounded-2xl overflow-hidden group"
               >
                 {/* Background Image */}
-                <img src={researchBg} alt="ACM Research Background" className="absolute inset-0 w-full h-full object-cover" />
+                <img
+                  src={researchBg}
+                  alt="ACM Research Background"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 {/* Dark Overlay */}
                 <div className="absolute inset-0 bg-black/50"></div>
-                
+
                 {/* Content */}
                 <div className="relative z-10 p-8 h-full flex flex-col">
                   {/* Logo - Top Left */}
                   <div className="flex items-center space-x-2">
-                    <img src={researchIcon} alt="ACM Research" className="w-6 h-6" />
+                    <img
+                      src={researchIcon}
+                      alt="ACM Research"
+                      className="w-6 h-6"
+                    />
                     <span className="text-white font-bold text-lg">acm</span>
-                    <span className="text-orange-400 font-bold text-lg">research.</span>
+                    <span className="text-orange-400 font-bold text-lg">
+                      research.
+                    </span>
                   </div>
-                  
+
                   {/* Title - Centered */}
                   <div className="flex-1 flex items-center justify-center">
                     <h2 className="text-4xl sm:text-5xl font-bold text-white text-center">
@@ -154,19 +175,29 @@ const Apply = () => {
                 className="relative h-80 rounded-2xl overflow-hidden group"
               >
                 {/* Background Image */}
-                <img src={techBg} alt="Technical Interview Prep Background" className="absolute inset-0 w-full h-full object-cover" />
+                <img
+                  src={techBg}
+                  alt="Technical Interview Prep Background"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 {/* Dark Overlay */}
                 <div className="absolute inset-0 bg-black/50"></div>
-                
+
                 {/* Content */}
                 <div className="relative z-10 p-8 h-full flex flex-col">
                   {/* Logo - Top Left */}
                   <div className="flex items-center space-x-2">
-                    <img src={educationIcon} alt="ACM Education" className="w-6 h-6" />
+                    <img
+                      src={educationIcon}
+                      alt="ACM Education"
+                      className="w-6 h-6"
+                    />
                     <span className="text-white font-bold text-lg">acm</span>
-                    <span className="text-green-400 font-bold text-lg">education.</span>
+                    <span className="text-green-400 font-bold text-lg">
+                      education.
+                    </span>
                   </div>
-                  
+
                   {/* Title - Centered */}
                   <div className="flex-1 flex items-center justify-center">
                     <h2 className="text-4xl sm:text-5xl font-bold text-white text-center">
@@ -184,19 +215,29 @@ const Apply = () => {
                 className="relative h-80 rounded-2xl overflow-hidden group"
               >
                 {/* Background Image */}
-                <img src={mentorBg} alt="Mentor Program Background" className="absolute inset-0 w-full h-full object-cover" />
+                <img
+                  src={mentorBg}
+                  alt="Mentor Program Background"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 {/* Dark Overlay */}
                 <div className="absolute inset-0 bg-black/50"></div>
-                
+
                 {/* Content */}
                 <div className="relative z-10 p-8 h-full flex flex-col">
                   {/* Logo - Top Left */}
                   <div className="flex items-center space-x-2">
-                    <img src={educationIcon} alt="ACM Education" className="w-6 h-6" />
+                    <img
+                      src={educationIcon}
+                      alt="ACM Education"
+                      className="w-6 h-6"
+                    />
                     <span className="text-white font-bold text-lg">acm</span>
-                    <span className="text-green-400 font-bold text-lg">education.</span>
+                    <span className="text-green-400 font-bold text-lg">
+                      education.
+                    </span>
                   </div>
-                  
+
                   {/* Title - Centered */}
                   <div className="flex-1 flex items-center justify-center">
                     <h2 className="text-4xl sm:text-5xl font-bold text-white text-center">
@@ -217,4 +258,3 @@ const Apply = () => {
 };
 
 export default Apply;
-

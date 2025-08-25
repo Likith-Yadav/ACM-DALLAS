@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Users, Code, GraduationCap, Building } from "lucide-react";
 import Divisions from "../components/Divisions";
-import aboutImage from "../assets/images/about.jpg";
+// import aboutImage from "../assets/images/about.jpg";
 import Footer from "../components/Footer";
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
               <div className="lg:w-3/5">
                 <div className="rounded-2xl overflow-hidden">
                   <img
-                    src={aboutImage}
+                    src="placeholder.svg"
                     alt="ACM Dallas Team"
                     className="w-full h-auto object-cover"
                   />
@@ -79,7 +79,7 @@ const About = () => {
                 Mission
               </h2>
               <p className="text-lg text-white/80 leading-relaxed text-center max-w-4xl mx-auto">
-                ACM at Dallas is a dynamic organization comprising eight
+                ACM Dallas is a dynamic organization comprising eight
                 specialized divisions and a dedicated team of over 20 officers.
                 Each division plays a unique role in fostering innovation and
                 engagement, yet we are united by a common mission: to enhance
@@ -98,8 +98,8 @@ const About = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">Divisions</h2>
               <p className="text-white/70 text-lg max-w-2xl mx-auto">
-                acm is comprised of eight divisions — each serving a different
-                topic and mission
+                ACM Dallas is comprised of eight divisions — each serving a
+                different topic and mission
               </p>
             </div>
             <Divisions />

@@ -1,40 +1,56 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Crown, Users, FileText, Star, DollarSign, GraduationCap, Code, Lightbulb, Wrench, Pencil } from 'lucide-react';
-import Footer from '../components/Footer';
+import React from "react";
+import { motion } from "framer-motion";
+import {
+  Crown,
+  Users,
+  FileText,
+  Star,
+  DollarSign,
+  GraduationCap,
+  Code,
+  Lightbulb,
+  Wrench,
+  Pencil,
+} from "lucide-react";
+import Footer from "../components/Footer";
 
 const Officers = () => {
   const boardMembers = [
-    { 
-      name: "Milankumar Rana", 
-      role: "Chair", 
+    {
+      name: "Milankumar Rana",
+      role: "Chair",
       image: "/images/officers/milan.jpg",
-      description: "Leading the organization with vision and strategic direction."
+      description:
+        "Leading the organization with vision and strategic direction.",
     },
-    { 
-      name: "Sakhita sree gadde", 
-      role: "Vice Chair", 
+    {
+      name: "Sakhita sree gadde",
+      role: "Vice Chair",
       image: "/images/officers/sakhita.jpg",
-      description: "Supporting leadership and coordinating between divisions."
+      description: "Supporting leadership and coordinating between divisions.",
     },
-    { 
-      name: "Monika Malik", 
-      role: "Secretary", 
+    {
+      name: "Monika Malik",
+      role: "Secretary",
       image: "/images/officers/Monika.jpg",
-      description: "Managing documentation and organizational communications."
+      description: "Managing documentation and organizational communications.",
     },
-    { 
-      name: "Nandita Giri", 
-      role: "Chair member", 
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-      description: "Contributing to strategic decisions and organizational growth."
+    {
+      name: "Nandita Giri",
+      role: "Chair member",
+      image:
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      description:
+        "Contributing to strategic decisions and organizational growth.",
     },
-    { 
-      name: "Vivek", 
-      role: "Treasurer", 
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      description: "Managing finances and budget allocation for all activities."
-    }
+    {
+      name: "Vivek",
+      role: "Treasurer",
+      image:
+        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      description:
+        "Managing finances and budget allocation for all activities.",
+    },
   ];
 
   return (
@@ -66,17 +82,20 @@ const Officers = () => {
               {/* Left Side - Text */}
               <div className="lg:w-1/2">
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
-                  meet the team
+                  Meet the team
                 </h1>
-                <p className="text-2xl sm:text-3xl text-white/80 mb-4">8 divisions. One goal.</p>
-                <p className="text-lg text-white/60">here are the students keeping ACM in motion.</p>
+                <p className="text-2xl sm:text-3xl text-white/80 mb-4">
+                  8 divisions. One goal.
+                </p>
+                <p className="text-lg text-white/60">
+                  here are the officers keeping ACM in motion.
+                </p>
               </div>
-              
+
               {/* Right Side - Decorative Elements */}
               <div className="lg:w-1/2 relative">
                 {/* Gradient Circle */}
                 <div className="w-64 h-64 bg-gradient-to-b from-pink-400 to-purple-600 rounded-full blur-xl opacity-30 animate-pulse"></div>
-            
               </div>
             </div>
           </motion.div>
@@ -104,13 +123,15 @@ const Officers = () => {
                   className="text-center"
                 >
                   <div className="w-28 h-28 mx-auto mb-4 rounded-full overflow-hidden border-2 border-white/20">
-                    <img 
-                      src={member.image} 
+                    <img
+                      src={member.image}
                       alt={member.name}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-lg font-bold text-white mb-1">{member.name}</h3>
+                  <h3 className="text-lg font-bold text-white mb-1">
+                    {member.name}
+                  </h3>
                   <p className="text-sm text-white/70">{member.role}</p>
                 </motion.div>
               ))}
@@ -126,4 +147,3 @@ const Officers = () => {
 };
 
 export default Officers;
-
